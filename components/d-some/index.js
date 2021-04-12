@@ -1,12 +1,15 @@
 const Some = () => {
   return (
     <div className="some">
-      <h2>SOME</h2>
       <style jsx>{`
         .some {
           width: 100vw;
           height: 70vh;
-          background: pink;
+          background-attachment: fixed;
+          background-image: url(/images/paying.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
           display: flex;
           justify-content: center;
           align-items: center;

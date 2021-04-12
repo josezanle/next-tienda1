@@ -12,7 +12,6 @@ export default function Home() {
       <Bennefits />
       <Recents />
       <Some />
-      <Recents />
       <One />
       <Services />
     </>
