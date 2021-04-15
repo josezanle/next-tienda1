@@ -9,6 +9,7 @@ const Right = () => {
             background-image: url(/images/banner.png);
             background-size: cover;
             background-position: bottom;
+            overflow: hidden;
           }
         `}
       </style>

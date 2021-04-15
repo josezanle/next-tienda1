@@ -7,6 +7,17 @@ const Banner = () => {
     <div className="banner">
       <Left />
       <Right />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        className="wave"
+      >
+        <path
+          fill="#ebebeb"
+          fillOpacity="1"
+          d="M0,192L120,197.3C240,203,480,213,720,213.3C960,213,1200,203,1320,197.3L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+        ></path>
+      </svg>
 
       <Arrow />
 
@@ -19,11 +30,14 @@ const Banner = () => {
           align-items: center;
           flex-flow: column;
           position: relative;
+          background-image: linear-gradient(120deg, #f6d365 0%, #ed8e2c 100%);
+          overflow: hidden;
         }
         .wave {
           position: absolute;
-          bottom: 0;
+          bottom: -3em;
           width: 100vw;
+          overflow: hidden;
         }
       `}</style>
     </div>
