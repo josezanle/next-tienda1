@@ -104,7 +104,7 @@ const Recents = () => {
           align-items: center;
         }
         button {
-          background-image: linear-gradient(120deg, #f6d365 0%, #f8ac30 100%);
+          background-image: linear-gradient(120deg, #f6d365 0%, #ed8e2c 100%);
           border-radius: 9px;
           cursor: pointer;
           outline: none;
