@@ -1,22 +1,22 @@
 export const Items = [
   {
     icon: "/icons/angellist.svg",
-    title: "Some title",
-    description: "lorem lalala lelele lulu on",
+    title: "Venta garantizada",
+    description: "llevamos las mejores marcas al más bajo precio, pra usted",
   },
   {
     icon: "/icons/headset.svg",
-    title: "Some title",
-    description: "lorem lalala lelele lulu on",
+    title: "Contacto directo",
+    description: "Atendido por sus dueños, para su comfort.",
   },
   {
     icon: "/icons/paypal.svg",
-    title: "Some title",
-    description: "lorem lalala lelele lulu on",
+    title: "Medios de pago",
+    description: "Trabajamos en efectivo y Mercado Pago.",
   },
   {
     icon: "/icons/shipping.svg",
-    title: "Some title",
-    description: "lorem lalala lelele lulu on",
+    title: "Ventas volumétricas",
+    description: "cotización por WhatsApp y envio.",
   },
 ];

@@ -1,4 +1,5 @@
 import { Reciente } from "../../utils/reciente";
+import Bennefits from "../b-benefits";
 
 const recents = Reciente;
 
@@ -6,14 +7,18 @@ const Recents = () => {
   return (
     <div className="recents">
       <div className="up">
-        <h5>Deluxe Style</h5>
-        <h2>Lanzamientos Recientes !</h2>
+        <h5>Carpe Diem</h5>
+        <h2>Somos Distribuidores !</h2>
         <p>
-          Estos son nuestros ultimos lanzamientos, basados en lo novedoso, nos
-          alineamos con la tendencia mundial, esperamos sea de tu agrado.
+          Carpediem distribuciones s.r.l. es una distribuidora de bebidas y
+          anexos para kioscos, almacenes y supermercados. Venta minorista y
+          mayorista con sede central en Villa Mercedes provincia de San Luis.
+          Desde el año 2012 abastece a todo el país, llevando las mejores marcas
+          al más bajo precio.s
         </p>
       </div>
-      {recents.map(({ photo, material, peso, color }, i) => (
+      <Bennefits />
+      {/* {recents.map(({ photo, material, peso, color }, i) => (
         <div className="card" key={i}>
           <div
             className="pic"
@@ -30,7 +35,7 @@ const Recents = () => {
             <h4>{color}</h4>
           </div>
         </div>
-      ))}
+      ))} */}
       <div className="bottom">
         <button>Ver Galeria</button>
       </div>
@@ -54,6 +59,7 @@ const Recents = () => {
           width: 100vw;
           text-align: center;
           color: #fda085;
+          font-size: 1.5em;
         }
         h2 {
           width: 100vw;
@@ -62,40 +68,41 @@ const Recents = () => {
           font-size: 2em;
         }
         p {
-          width: 100vw;
+          width: 50%;
           text-align: center;
           margin: 0;
+          font-size: 1.5em;
         }
-        .card {
-          width: 250px;
-          height: 400px;
-          display: flex;
-          flex-flow: column;
-          background: white;
-          border-radius: 0.5em;
-          border: 3px solid #ebebeb;
-          margin: 1em;
-          cursor: pointer;
-        }
-        .card:hover {
-          border: 3px solid #fda085;
-        }
+        // .card {
+        //   width: 250px;
+        //   height: 400px;
+        //   display: flex;
+        //   flex-flow: column;
+        //   background: white;
+        //   border-radius: 0.5em;
+        //   border: 3px solid #ebebeb;
+        //   margin: 1em;
+        //   cursor: pointer;
+        // }
+        // .card:hover {
+        //   border: 3px solid #fda085;
+        // }
         // ================
-        .pic,
-        .text {
-          width: 100%;
-          height: 100%;
-        }
-        .pic {
-          flex: 3;
-        }
-        .text {
-          flex: 1;
-          padding: 1em;
-        }
-        h4 {
-          margin: 0;
-        }
+        // .pic,
+        // .text {
+        //   width: 100%;
+        //   height: 100%;
+        // }
+        // .pic {
+        //   flex: 3;
+        // }
+        // .text {
+        //   flex: 1;
+        //   padding: 1em;
+        // }
+        // h4 {
+        //   margin: 0;
+        // }
         // ========================================
         .bottom {
           width: 100vw;

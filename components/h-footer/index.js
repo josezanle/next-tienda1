@@ -12,12 +12,12 @@ const Footer = () => {
         <span className="column">
           <h3>
             <Link href="/nosotros">
-              <a className="pointer">socialNetworks</a>
+              <a className="pointer">Redes Sociales</a>
             </Link>
           </h3>
           <p>
             Entra en el enlace, y contactanos a través de todas las redes
-            sociales que usamos.
+            sociales que usamos.s
           </p>
           <br />
           <br />
@@ -26,7 +26,7 @@ const Footer = () => {
         <span className="column">
           <h3>contactInformation</h3>
           <span className="row">
-            <img src="/icon/house.png" alt="house icon" />
+            <img src="/icons/house.png" alt="house icon" />
             <p> San Luis - Argentina</p>
             <br />
           </span>
@@ -41,8 +41,8 @@ const Footer = () => {
           <span className="row">
             <img src="/icons/contact.png" alt="contact icon" />
             <p>
-              <a href="mailto:lefcott@hotmail.com" target="blank">
-                vadesdeelinicioalexito@gmail.com
+              <a href="mailto:carpediemcontenidos@gmail.com" target="blank">
+                carpediemcontenidos@gmail.com
               </a>
             </p>
           </span>

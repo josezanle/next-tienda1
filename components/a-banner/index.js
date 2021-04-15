@@ -1,21 +1,20 @@
-import Logo from "../i-logo";
+import Arrow from "../k-flecha";
 
 const Banner = () => {
   return (
     <div className="banner">
-      <h2>banner</h2>
-      <Logo />
+      <Arrow />
 
       <style jsx>{`
         .banner {
           width: 100vw;
           height: 100vh;
-          // background-image: url(/images/banner-test.png);
-          // background-size: cover;
-          // background-position: center;
-          // background-repeat: no-repeat;
           position: relative;
-          // linear-gradient(120deg, #f6d365 0%, #f8ac30 100%)
+        }
+        .wave {
+          position: absolute;
+          bottom: 0;
+          width: 100vw;
         }
       `}</style>
     </div>
