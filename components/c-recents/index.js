@@ -18,24 +18,7 @@ const Recents = () => {
         </p>
       </div>
       <Bennefits />
-      {/* {recents.map(({ photo, material, peso, color }, i) => (
-        <div className="card" key={i}>
-          <div
-            className="pic"
-            style={{
-              backgroundImage: `url( ${photo})`,
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
-            }}
-          ></div>
-          <div className="text">
-            <h4>{material}</h4>
-            <h4>{peso}</h4>
-            <h4>{color}</h4>
-          </div>
-        </div>
-      ))} */}
+
       <div className="bottom">
         <button>Ver Galeria</button>
       </div>
@@ -73,37 +56,7 @@ const Recents = () => {
           margin: 0;
           font-size: 1.5em;
         }
-        // .card {
-        //   width: 250px;
-        //   height: 400px;
-        //   display: flex;
-        //   flex-flow: column;
-        //   background: white;
-        //   border-radius: 0.5em;
-        //   border: 3px solid #ebebeb;
-        //   margin: 1em;
-        //   cursor: pointer;
-        // }
-        // .card:hover {
-        //   border: 3px solid #fda085;
-        // }
-        // ================
-        // .pic,
-        // .text {
-        //   width: 100%;
-        //   height: 100%;
-        // }
-        // .pic {
-        //   flex: 3;
-        // }
-        // .text {
-        //   flex: 1;
-        //   padding: 1em;
-        // }
-        // h4 {
-        //   margin: 0;
-        // }
-        // ========================================
+
         .bottom {
           width: 100vw;
           display: flex;
