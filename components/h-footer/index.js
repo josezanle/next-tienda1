@@ -1,12 +1,11 @@
 import Link from "next/link";
-import Logo from "../i-logo";
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="bottom">
         <span className="column">
-          <Logo />
+          <img src="/images/logo-white.png" alt="logo-white" className="img" />
         </span>
 
         <span className="column">
@@ -135,6 +134,11 @@ const Footer = () => {
             flex-flow: column;
             padding: 1em;
             border-radius: 1em;
+          }
+
+          .img {
+            width: 400px;
+            height: 200px;
           }
           // ========================
           h3 {
