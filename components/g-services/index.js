@@ -25,7 +25,7 @@ const Services = () => {
       <style jsx>{`
         .targets {
           width: 100vw;
-          height: 100vh;
+          min-height: 100vh;
           background: white;
           display: flex;
           justify-content: center;
