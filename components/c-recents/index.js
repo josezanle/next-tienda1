@@ -6,17 +6,16 @@ const recents = Reciente;
 const Recents = () => {
   return (
     <div className="recents">
-      <div className="up">
-        <h5>Carpe Diem</h5>
-        <h2>Somos Distribuidores !</h2>
-        <p>
-          Carpediem distribuciones s.r.l. es una distribuidora de bebidas y
-          anexos para kioscos, almacenes y supermercados. Venta minorista y
-          mayorista con sede central en Villa Mercedes provincia de San Luis.
-          Desde el año 2012 abastece a todo el país, llevando las mejores marcas
-          al más bajo precio.s
-        </p>
-      </div>
+      <h5>Bienvenido/a:</h5>
+      <h2>Somos Distribuidores !</h2>
+      <p>
+        Carpediem Distribuciones s.r.l., es una distribuidora de bebidas y
+        anexos para kioscos, almacenes y supermercados. Venta minorista y
+        mayorista con sede central en
+        <b> Villa Mercedes provincia de San Luis</b>. Desde el año 2012 abastece
+        a todo el país, llevando las mejores marcas al más bajo precio.s
+      </p>
+
       <Bennefits />
 
       <div className="bottom">
@@ -25,19 +24,16 @@ const Recents = () => {
       <style jsx>{`
         .recents {
           width: 100vw;
-          height: 100vh;
+          min-height: 100vh;
+          padding: 0 0 5em 0;
           background: white;
           display: flex;
           justify-content: center;
           align-items: center;
           flex-wrap: wrap;
+          background: #ebebeb;
         }
-        .up {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-wrap: wrap;
-        }
+
         h5 {
           width: 100vw;
           text-align: center;

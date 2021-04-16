@@ -38,7 +38,7 @@ const Bennefits = () => {
           background: white;
           border-radius: 1em;
           border: 3px solid #563c7e;
-          margin: 0 0.5em;
+          margin: 0.5em;
           padding: 0.5em;
           cursor: pointer;
         }

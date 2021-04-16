@@ -30,6 +30,7 @@ const Services = () => {
           display: flex;
           justify-content: center;
           align-items: center;
+          flex-wrap: wrap;
         }
         .card {
           width: 350px;
