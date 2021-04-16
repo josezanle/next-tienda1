@@ -1,9 +1,7 @@
-import { Reciente } from "../../utils/reciente";
 import Bennefits from "../b-benefits";
+import Button from "../button";
 
-const recents = Reciente;
-
-const Recents = () => {
+const Recents = ({ children }) => {
   return (
     <div className="recents">
       <h5>Bienvenido/a:</h5>
@@ -19,7 +17,9 @@ const Recents = () => {
       <Bennefits />
 
       <div className="bottom">
-        <button>Ver Galeria</button>
+        <Button>
+          <h4>Ver</h4>
+        </Button>
       </div>
       <style jsx>{`
         .recents {
@@ -33,7 +33,11 @@ const Recents = () => {
           flex-wrap: wrap;
           background: #ebebeb;
         }
-
+        h4 {
+          color: white;
+          z-index: 10000;
+          overflow: hidden;
+        }
         h5 {
           width: 100vw;
           text-align: center;
@@ -58,20 +62,6 @@ const Recents = () => {
           display: flex;
           justify-content: center;
           align-items: center;
-        }
-        button {
-          background-image: linear-gradient(120deg, #f6d365 0%, #ed8e2c 100%);
-          border-radius: 9px;
-          cursor: pointer;
-          outline: none;
-          border: none;
-          width: 200px;
-          height: 50px;
-          font-weight: bold;
-          font-size: 1.3em;
-        }
-        button:hover {
-          color: white;
         }
       `}</style>
     </div>
