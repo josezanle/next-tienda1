@@ -1,12 +1,12 @@
 import Arrow from "../k-flecha";
-import Left from "./left";
-import Right from "./right";
+import Top from "./top";
+import Bottom from "./bottom";
 
 const Banner = () => {
   return (
     <div className="banner">
-      <Left />
-      <Right />
+      <Top />
+      <Bottom />
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"

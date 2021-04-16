@@ -1,13 +1,21 @@
+import Image from "next/image";
+
 const One = () => {
   return (
     <div className="one">
+      <Image
+        src="/images/banner-test.jpg"
+        alt="Picture of carpediem"
+        width={1200}
+        height={1000}
+      />
       <style jsx>{`
         .one {
           width: 100vw;
-          height: 100vh;
-          background-image: url(/images/banner-test.png);
-          background-size: cover;
-          background-repeat: no-repeat;
+          min-height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
       `}</style>
     </div>

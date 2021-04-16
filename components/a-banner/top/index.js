@@ -1,7 +1,14 @@
-const Left = () => {
+import Image from "next/image";
+
+const Top = () => {
   return (
     <div className="left">
-      <img src="/images/logo-white.png" alt="logo-white" className="img" />
+      <Image
+        src="/images/logo-white.png"
+        alt="logo-white"
+        width={780}
+        height={240}
+      />
       <h2>Mira los mejores precios.</h2>
 
       <style jsx>
@@ -15,10 +22,6 @@ const Left = () => {
             flex-flow: column;
             overflow: hidden;
           }
-          .img {
-            width: 700px;
-            height: 260px;
-          }
 
           h2 {
             color: white;
@@ -31,4 +34,4 @@ const Left = () => {
   );
 };
 
-export default Left;
+export default Top;
