@@ -38,13 +38,17 @@ const Services = () => {
           display: flex;
           flex-flow: column;
           margin: 1em;
-          border: 1px solid black;
+          border: 1px solid #1c1c1c;
           border-radius: 1em;
         }
 
-        .top,
         .text {
-          flex: 1;
+          flex: 2;
+          width: 100%;
+          height: 100%;
+        }
+        .top {
+          flex: 8;
           width: 100%;
           height: 100%;
         }

@@ -2,7 +2,7 @@ const Left = () => {
   return (
     <div className="left">
       <img src="/images/logo-white.png" alt="logo-white" className="img" />
-      <h2>Somos una distribuidora de bebidas</h2>
+      <h2>Mira los mejores precios.</h2>
 
       <style jsx>
         {`
@@ -23,6 +23,7 @@ const Left = () => {
           h2 {
             color: white;
             font-size: 3em;
+            overflow: hidden;
           }
         `}
       </style>

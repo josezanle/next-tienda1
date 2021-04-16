@@ -1,14 +1,14 @@
 export const Targets = [
   {
-    photo: "/images/service1.jpg",
-    description: "lorem lalala lelele lulu on",
+    photo: "/images/pack.jpg",
+    description: "Descripcion de oferta",
   },
   {
-    photo: "/images/service1.jpg",
-    description: "lorem lalala lelele lulu on",
+    photo: "/images/cunning.jpg",
+    description: "Descripcion de oferta",
   },
   {
-    photo: "/images/service1.jpg",
-    description: "lorem lalala lelele lulu on",
+    photo: "/images/pack2.png",
+    description: "Descripcion de oferta",
   },
 ];

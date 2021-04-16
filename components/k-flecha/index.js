@@ -24,7 +24,7 @@ const Arrow = () => {
             display: flex;
             justify-content: center;
             align-items: center;
-            background-image: linear-gradient(120deg, #8c52ff 0%, #8c52ff 100%);
+            background-image: linear-gradient(120deg, #8c52ff 0%, #563c7e 100%);
             position: absolute;
             bottom: 6em;
             left: 10%;

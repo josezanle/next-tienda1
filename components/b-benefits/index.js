@@ -35,7 +35,7 @@ const Bennefits = () => {
           display: flex;
           justify-content: center;
           align-items: center;
-          background: white;
+          background-image: linear-gradient(120deg, #8c52ff 0%, #563c7e 100%);
           border-radius: 1em;
           border: 3px solid #563c7e;
           margin: 0.5em;
@@ -56,6 +56,7 @@ const Bennefits = () => {
           height: 100%;
           flex: 7;
           padding: 0.5em;
+          color: white;
         }
         h4,
         p {
